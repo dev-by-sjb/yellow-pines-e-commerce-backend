@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/servererrors"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/servererrors"
 )
 
 type APIHandler func(w http.ResponseWriter, r *http.Request) error

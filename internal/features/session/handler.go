@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/handlerutils"
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/servererrors"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/handlerutils"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/servererrors"
 	"github.com/go-chi/chi"
 )
 

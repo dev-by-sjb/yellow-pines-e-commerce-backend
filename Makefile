@@ -12,6 +12,9 @@ GO_BUILD = $(GO) build
 GO_TEST = $(GO) test
 GO_TIDY = $(GO) mod tidy
 
+MG ?= 
+MIGRATION_VERSION = $(MG)
+
 # Target
 
 build: 
@@ -37,7 +40,8 @@ create_migrations:
 		sleep 1; \
 	done
 
-
+migration_force:
+	$(GO) run cmd/migrate/main.go force $(MIGRATION_VERSION)
 
 migrate_up:
 	$(GO) run cmd/migrate/main.go up
@@ -45,6 +49,8 @@ migrate_up:
 migrate_down:
 	$(GO) run cmd/migrate/main.go down
 
+migrate_down_one:
+	$(GO) run cmd/migrate/main.go down_one
 
 create_container:
 	$(DOC) run --name $(POSTGRES_DOCKER_CONTAINER) -e POSTGRES_USER=$(POSTGRES_USER_DOCKER_CONTAINER) -e POSTGRES_PASSWORD=$(POSTGRES_PASSWORD_DOCKER_CONTAINER) -p $(POSTGRES_DB_PORT_HOST_DOCKER_CONTAINER):$(POSTGRES_DB_PORT_DOCKER_CONTAINER) -d postgres:12-alpine
@@ -54,3 +60,13 @@ create_db:
 
 start_container:
 	$(DOC) start $(POSTGRES_DOCKER_CONTAINER)
+
+
+# todo: add docker compose up and air under one command to start db container the run air so that i don't have to run the start docker db myself
+
+
+pop:
+	@echo $(word 1, $(filter-out $@,$(MAKECMDGOALS)))
+
+generate_proto::
+	go tool buf generate --template buf.gen.yaml

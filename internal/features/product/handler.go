@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/handlerutils"
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/middlewares"
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/servererrors"
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/validate"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/handlerutils"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/middlewares"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/servererrors"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/validate"
 	"github.com/go-chi/chi"
 	"github.com/google/uuid"
 )

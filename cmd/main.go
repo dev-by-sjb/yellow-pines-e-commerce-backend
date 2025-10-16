@@ -3,10 +3,10 @@ package main
 import (
 	"log"
 
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/cmd/server"
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/auth"
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/config"
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/storage"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/cmd/server"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/auth"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/config"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/storage"
 )
 
 var (

@@ -1,7 +1,7 @@
 package admin
 
 import (
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/auth"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/auth"
 	"github.com/google/uuid"
 )
 

@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/handlerutils"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/handlerutils"
 	"github.com/go-chi/chi"
 	"github.com/google/uuid"
 )

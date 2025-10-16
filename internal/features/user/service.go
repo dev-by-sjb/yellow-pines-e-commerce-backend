@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/auth"
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/interfaces"
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/servererrors"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/auth"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/interfaces"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/servererrors"
 	"github.com/google/uuid"
 )
 

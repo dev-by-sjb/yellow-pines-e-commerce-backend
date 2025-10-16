@@ -1,6 +1,6 @@
 package session
 
-import "github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/interfaces"
+import "github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/interfaces"
 
 // requests
 

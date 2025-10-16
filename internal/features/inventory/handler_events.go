@@ -5,8 +5,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/eventengine"
-	"github.com/eng-by-sjb/yellow-pines-e-commerce-backend/internal/eventengine/event"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/eventengine"
+	"github.com/engr-sjb/yellow-pines-e-commerce-backend/internal/eventengine/event"
 
 	"github.com/google/uuid"
 )

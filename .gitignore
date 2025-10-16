@@ -27,6 +27,10 @@ go.work.sum
 # air 
 .air.toml
 
+.amazonqignore
+.DS_Store
+build
+
 bin
 yellow-pines-e-commerce-backend/
 tmp/
@@ -45,3 +49,9 @@ internal/backgroundworkers
 internal/tokens
 docker-compose.yml
 Dockerfile
+
+
+
+_ride-sharing-main
+
+_newsapi-main
